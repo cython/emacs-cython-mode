@@ -108,7 +108,8 @@
 ;;;###autoload
 (defcustom cython-default-compile-format "cython -a %s"
   "Format for the default command to compile a Cython file.
-It will be passed to `format' with `buffer-file-name' as the only other argument."
+It will be passed to `format' with `buffer-file-name'
+as the only other argument."
   :group 'cython
   :type 'string)
 
